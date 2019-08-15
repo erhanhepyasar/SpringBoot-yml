@@ -1,0 +1,12 @@
+spring:  profiles:    active: qa    ---spring:  profiles: devserver:  port: 9091
+  
+default:
+  course:
+    name: SAP HANA
+    chapterCount: 3
+ 
+course:
+    name: AWS, Docker
+    chapterCount: 45
+    rating: 5
+    author: Hepyasar---spring:  profiles: qaserver:  port: 9092  default:  course:    name: SAP HANA_    chapterCount: 30 course:    name: AWS, Docker_    chapterCount: 450    rating: 50    author: Hepyasar_ 

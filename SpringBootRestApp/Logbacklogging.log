@@ -1,0 +1,16 @@
+2019-08-15 15:40:38.565  INFO 23088 --- [main] com.app.SpringBootRestAppApplication     : Starting SpringBootRestAppApplication on GMBIM45nb with PID 23088 (C:\MyProj\eclipse-workspace\SpringBootRestApp\target\classes started by GMBIM45 in C:\MyProj\eclipse-workspace\SpringBootRestApp)
+2019-08-15 15:40:38.567  INFO 23088 --- [main] com.app.SpringBootRestAppApplication     : No active profile set, falling back to default profiles: default
+2019-08-15 15:40:39.260  INFO 23088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2019-08-15 15:40:39.283  INFO 23088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-15 15:40:39.286  INFO 23088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-15 15:40:39.355  INFO 23088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-15 15:40:39.355 DEBUG 23088 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2019-08-15 15:40:39.356  INFO 23088 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 746 ms
+2019-08-15 15:40:39.425 DEBUG 23088 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2019-08-15 15:40:39.493  INFO 23088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-15 15:40:39.500 DEBUG 23088 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2019-08-15 15:40:39.528 DEBUG 23088 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 6 mappings in 'requestMappingHandlerMapping'
+2019-08-15 15:40:39.539 DEBUG 23088 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2019-08-15 15:40:39.545 DEBUG 23088 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2019-08-15 15:40:39.612  INFO 23088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2019-08-15 15:40:39.614  INFO 23088 --- [main] com.app.SpringBootRestAppApplication     : Started SpringBootRestAppApplication in 1.281 seconds (JVM running for 2.134)
